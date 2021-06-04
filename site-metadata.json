@@ -3,7 +3,7 @@
     "palette": "blue",
     "header": {
         "type": "header",
-        "title": "Libris",
+        "title": "Cm3 Design System",
         "logo_img": "/images/Cm3 Logo.svg",
         "logo_img_alt": "Cm3 logo",
         "has_nav": true,
