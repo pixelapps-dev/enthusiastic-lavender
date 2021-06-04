@@ -11,7 +11,7 @@ sections:
     actions:
       - type: action
         label: Get Started
-        url: /docs
+        url: /components
         style: primary
   - type: section_grid
     section_id: features

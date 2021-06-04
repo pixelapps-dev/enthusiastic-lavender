@@ -1,28 +1,28 @@
 ---
-title: UI Components
+title: Accordion
 excerpt: >-
-  To make it easy to write documentation in plain Markdown, most UI components
-  are styled using Markdown elements with few additional CSS classes.
+  Libris is a Unibit theme created for project documentations. You can use it
+  for your project.
 seo:
   type: stackbit_page_meta
-  title: UI Components
-  description: This is the UI components page
+  title: Accordion
+  description: This is the about page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: UI Components
+      value: About
       keyName: property
     - name: 'og:description'
-      value: This is the UI components page
+      value: This is the about page
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: UI Components
+      value: About
     - name: 'twitter:description'
-      value: This is the UI components page
+      value: This is the about page
 template: docs
 ---
 

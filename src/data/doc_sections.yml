@@ -1,9 +1,12 @@
-root_docs_path: /docs
+root_docs_path: /components
 sections:
-  - about
-  - getting-started
-  - ui-components
-  - manage-content
-  - tools
-  - faq
-  - community
+  - Accordion
+  - Badge
+  - Breadcrumbs
+  - Buttons
+  - Card
+  - Charts
+  - Confirmation
+  - Forms
+  - Grid System
+  - Inline Message

@@ -10,42 +10,58 @@
         "nav_links": [
             {
                 "type": "action_menu",
-                "label": "Home",
-                "url": "/",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
                 "label": "Components",
-                "url": "/docs",
+                "url": "/components",
                 "style": "link",
                 "has_subnav": false
             },
             {
                 "type": "action_menu",
-                "label": "Blog",
-                "url": "/blog",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Sample Pages",
+                "label": "Foundations",
                 "url": "#",
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
                     {
                         "type": "action",
-                        "label": "Overview",
-                        "url": "/overview",
+                        "label": "Colours",
+                        "url": "/colours",
                         "style": "link"
                     },
                     {
                         "type": "action",
-                        "label": "Showcase",
-                        "url": "/showcase",
+                        "label": "Typography",
+                        "url": "/typography",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Icons",
+                        "url": "/icons",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Logos",
+                        "url": "/logos",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Layouts",
+                        "url": "/layouts",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Devices & Browsers",
+                        "url": "/device-browser-support",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Accessibility",
+                        "url": "/accessibility",
                         "style": "link"
                     }
                 ]

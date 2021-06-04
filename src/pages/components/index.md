@@ -1,8 +1,8 @@
 ---
-title: Welcome to Libris
+title: Components
 seo:
   type: stackbit_page_meta
-  title: Welcome to Libris
+  title: Cm3 UI Components
   description: This is the documentation page
   extra:
     - name: 'og:type'
