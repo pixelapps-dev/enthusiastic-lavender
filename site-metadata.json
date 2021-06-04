@@ -98,7 +98,6 @@
         ],
         "links": [
             {
-                "label": "lorem-ipsum",
                 "url": "#",
                 "style": "link",
                 "icon_class": "dev",
