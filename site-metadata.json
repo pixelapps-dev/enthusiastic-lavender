@@ -17,7 +17,7 @@
             },
             {
                 "type": "action_menu",
-                "label": "Docs",
+                "label": "Components",
                 "url": "/docs",
                 "style": "link",
                 "has_subnav": false
