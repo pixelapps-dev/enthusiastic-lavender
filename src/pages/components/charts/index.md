@@ -1,28 +1,28 @@
 ---
-title: Badge
+title: Charts
 excerpt: >-
-  Libris is a Unibit theme created for project documentations. You can use it
-  for your project.
+  See some interesting tools developed by the Libris community to help automate
+  parts of your workflow.
 seo:
   type: stackbit_page_meta
-  title: About
-  description: This is the about page
+  title: Charts
+  description: This is the tools page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: About
+      value: Tools
       keyName: property
     - name: 'og:description'
-      value: This is the about page
+      value: This is the tools page
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: About
+      value: Tools
     - name: 'twitter:description'
-      value: This is the about page
+      value: This is the tools page
 template: docs
 ---
 

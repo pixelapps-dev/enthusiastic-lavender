@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Page Transition
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Page Transition
   description: This is the documentation page
   extra:
     - name: 'og:type'

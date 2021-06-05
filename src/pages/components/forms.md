@@ -1,5 +1,5 @@
 ---
-title: Components Overview
+title: Forms
 seo:
   type: stackbit_page_meta
   title: Cm3 UI Components - Forms

@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Progress
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Cm3 UI Components - Progress
   description: This is the documentation page
   extra:
     - name: 'og:type'

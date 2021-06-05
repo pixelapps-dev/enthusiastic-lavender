@@ -2,12 +2,11 @@
 title: Home
 sections:
   - type: section_hero
-    title: Hero Section
+    title: Cm3 Design System
     section_id: hero
     image: images/5.jpg
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+        A collection of guidelines and resources for use across the Cm3 product.
     actions:
       - type: action
         label: Get Started
@@ -18,36 +17,36 @@ sections:
     col_number: three
     grid_items:
       - type: grid_item
-        title: Documentation
+        title: Components
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
         actions:
           - type: action
-            label: Get Started
-            url: /docs
+            label: View Components
+            url: /components
             style: link
       - type: grid_item
-        title: Blog
+        title: Foundations
         content: >-
           Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
           nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
         actions:
           - type: action
-            label: View Posts
-            url: /blog
+            label: View Foundations
+            url: /foundations
             style: link
       - type: grid_item
-        title: Style Guide
+        title: Content
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
         actions:
           - type: action
-            label: Learn More
-            url: /style-guide
+            label: View Content Guidelines
+            url: /content-guidelines
             style: link
   - type: section_content
     title: A Section With An Image

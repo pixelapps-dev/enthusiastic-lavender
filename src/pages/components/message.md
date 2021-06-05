@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Message
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Cm3 UI Components - Message
   description: This is the documentation page
   extra:
     - name: 'og:type'

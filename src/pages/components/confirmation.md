@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Confirmation
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Confirmation
   description: This is the documentation page
   extra:
     - name: 'og:type'

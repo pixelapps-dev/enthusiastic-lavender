@@ -1,11 +1,11 @@
 ---
-title: Badge
+title: Label
 excerpt: >-
   Libris is a Unibit theme created for project documentations. You can use it
   for your project.
 seo:
   type: stackbit_page_meta
-  title: About
+  title: Label
   description: This is the about page
   extra:
     - name: 'og:type'

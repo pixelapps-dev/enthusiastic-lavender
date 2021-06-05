@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Tabs
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Tabs
   description: This is the documentation page
   extra:
     - name: 'og:type'

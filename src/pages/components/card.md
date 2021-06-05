@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Card
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Card
   description: This is the documentation page
   extra:
     - name: 'og:type'

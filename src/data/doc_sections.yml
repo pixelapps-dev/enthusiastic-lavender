@@ -1,12 +1,23 @@
 root_docs_path: /components
 sections:
-  - Accordion
-  - Badge
-  - Breadcrumbs
-  - Buttons
-  - Card
-  - Charts
-  - Confirmation
-  - Forms
-  - Grid System
-  - Inline Message
+  - accordion
+  - badge
+  - breadcrumbs
+  - buttons
+  - card
+  - charts
+  - confirmation
+  - forms
+  - grid
+  - inlinemessage
+  - lists
+  - message
+  - modal
+  - pagination
+  - progress
+  - pageloading
+  - tables
+  - tabs
+  - tags
+  - texttip
+  - tooltip

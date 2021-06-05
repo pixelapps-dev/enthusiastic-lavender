@@ -13,79 +13,72 @@
                 "label": "Components",
                 "url": "/components",
                 "style": "link",
-                "has_subnav": false
+                "has_subnav": true
             },
             {
                 "type": "action_menu",
                 "label": "Foundations",
-                "url": "#",
+                "url": "/foundations",
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
                     {
                         "type": "action",
                         "label": "Colours",
-                        "url": "/colours",
+                        "url": "/foundations/colours",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Typography",
-                        "url": "/typography",
+                        "url": "/foundations/typography",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Icons",
-                        "url": "/icons",
+                        "url": "/foundations/icons",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Logos",
-                        "url": "/logos",
+                        "url": "/foundations/logos",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Layouts",
-                        "url": "/layouts",
+                        "url": "/foundations/layouts",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Devices & Browsers",
-                        "url": "/device-browser-support",
+                        "url": "/foundations/device-browser-support",
                         "style": "link"
                     },
                     {
                         "type": "action",
                         "label": "Accessibility",
-                        "url": "/accessibility",
+                        "url": "/foundations/accessibility",
                         "style": "link"
                     }
                 ]
             },
             {
                 "type": "action_menu",
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "Content",
+                "url": "/content-guidelines",
                 "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "primary",
                 "has_subnav": false
             }
         ]
     },
     "footer": {
         "type": "footer",
-        "content": "&copy; Greencap Pty Ltd. All rights reserved.",
-        "has_social": true,
+        "content": "&copy; 2021 Greencap Pty Ltd. All rights reserved.",
+        "has_social": false,
         "social_links": [
             {
                 "type": "action",

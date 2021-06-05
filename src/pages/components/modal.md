@@ -1,8 +1,8 @@
 ---
-title: Components Overview
+title: Modal
 seo:
   type: stackbit_page_meta
-  title: Cm3 UI Components - Forms
+  title: Modal
   description: This is the documentation page
   extra:
     - name: 'og:type'
