@@ -476,34 +476,6 @@ collections:
     filter:
       field: template
       value: docs
-  - name: components
-    label: Components
-    files:
-      - name: components
-        label: Documentation Sections
-        file: src/data/doc_sections.yml
-        fields:
-          - widget: string
-            name: root_docs_path
-            label: Root Components URL Path
-            required: true
-            default: /components
-            hint: >-
-              The URL path under which the documentation pages will be
-              generated. For example, value "/" will place all documentation
-              pages at the site root, while value "/docs" will place all
-              documentation pages under the "/docs" path.
-          - widget: list
-            name: sections
-            label: Sections
-            required: false
-            hint: >-
-              The main sections of the documentation. Every item must be the URL
-              slug representing the section.
-            field:
-              label: String
-              name: string
-              widget: string
   - name: advanced
     label: Advanced Pages
     folder: src/pages
@@ -1254,6 +1226,8 @@ collections:
       field: template
       value: page
   - name: post
+
+
     label: Posts
     folder: src/pages/blog
     create: true
@@ -1379,3 +1353,117 @@ collections:
     filter:
       field: template
       value: post
+  - name: components
+    label: Component Specifications
+    folder: src/pages/components
+    create: true
+    extension: md
+    identifier_field: title
+    slug: '{{slug}}'
+    summary: '{{title}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: >-
+          The title of the page, used both as a page title and as a navigation
+          menu title
+      - widget: number
+        name: weight
+        label: Weight
+        required: false
+        hint: >-
+          The navigation order of the documentation page. This value is ignored
+          for parent section pages.
+        valueType: int
+      - widget: string
+        name: excerpt
+        label: Excerpt
+        required: false
+        hint: >-
+          Short description of the documentation section. Displayed in
+          documentation overview section.
+      - widget: object
+        name: seo
+        label: Seo
+        required: false
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: false
+            default: ''
+            hint: The page title that goes into the <title> tag
+          - widget: string
+            name: description
+            label: Description
+            required: false
+            default: ''
+            hint: >-
+              The page description that goes into the <meta name="description">
+              tag
+          - widget: list
+            name: robots
+            label: Robots
+            required: false
+            hint: The items that go into the <meta name="robots"> tag
+            field:
+              label: Select
+              name: select
+              widget: select
+              options:
+                - all
+                - index
+                - follow
+                - noindex
+                - nofollow
+                - noimageindex
+                - notranslate
+                - none
+          - widget: list
+            name: extra
+            label: Extra
+            required: false
+            hint: >-
+              Additional definition for specific meta tags such as open-graph,
+              twitter, etc.
+            fields:
+              - widget: string
+                name: name
+                label: Name
+                required: false
+                default: ''
+              - widget: string
+                name: value
+                label: Value
+                required: false
+                default: ''
+              - widget: string
+                name: keyName
+                label: Key Name
+                required: false
+                default: name
+              - widget: boolean
+                name: relativeUrl
+                label: Relative Url
+                required: false
+          - widget: hidden
+            name: type
+            label: Object Type
+            required: true
+            hint: The type of the object
+            default: stackbit_page_meta
+      - widget: hidden
+        name: template
+        label: Template
+        required: true
+        default: docs
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+    filter:
+      field: template
+      value: docs
