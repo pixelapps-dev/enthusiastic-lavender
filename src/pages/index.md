@@ -8,10 +8,10 @@ sections:
     content: >-
         A collection of guidelines and resources for use across the Cm3 product.
     actions:
-      - type: action
-        label: Get Started
-        url: /components
-        style: primary
+      # - type: action
+      #   label: Get Started
+      #   url: /components
+      #   style: primary
   - type: section_grid
     section_id: features
     col_number: three
@@ -53,7 +53,7 @@ sections:
     actions:
       - type: action
         label: View Slides
-        url: /docs/getting-started
+        url: #
         style: primary
   - type: section_grid
     title:
