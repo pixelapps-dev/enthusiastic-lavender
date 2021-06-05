@@ -1354,7 +1354,7 @@ collections:
       field: template
       value: post
   - name: components
-    label: Component Specifications
+    label: Component
     folder: src/pages/components
     create: true
     extension: md
