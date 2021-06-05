@@ -476,7 +476,7 @@ collections:
       field: template
       value: docs
   - name: components
-    label: Documentation Sections
+    label: Components
     files:
       - name: components
         label: Documentation Sections
@@ -484,9 +484,9 @@ collections:
         fields:
           - widget: string
             name: root_docs_path
-            label: Root Documentation URL Path
+            label: Root Components URL Path
             required: true
-            default: /docs
+            default: /components
             hint: >-
               The URL path under which the documentation pages will be
               generated. For example, value "/" will place all documentation
