@@ -83,19 +83,19 @@ sections:
             label: Learn More
             url: /showcase
             style: link
-  - type: section_cta
-    title: The Title of The Call to Action Block
-    section_id: cta
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - type: action
-        label: Get Started
-        url: /docs/getting-started/installation
-        style: primary
+  # - type: section_cta
+  #   title: The Title of The Call to Action Block
+  #   section_id: cta
+  #   subtitle: This is an optional description for the call to action block.
+  #   actions:
+  #     - type: action
+  #       label: Get Started
+  #       url: /docs/getting-started/installation
+  #       style: primary
 seo:
   type: stackbit_page_meta
-  title: Stackbit Libris Theme
-  description: The preview of the Libris theme
+  title: Cm3 Design System
+  description: 
   extra:
     - name: 'og:type'
       value: website
@@ -104,7 +104,7 @@ seo:
       value: Stackbit Libris Theme
       keyName: property
     - name: 'og:description'
-      value: The preview of the Libris theme
+      value: 
       keyName: property
     - name: 'og:image'
       value: images/4.jpg
@@ -115,7 +115,7 @@ seo:
     - name: 'twitter:title'
       value: Stackbit Libris Theme
     - name: 'twitter:description'
-      value: The preview of the Libris theme
+      value: 
     - name: 'twitter:image'
       value: images/4.jpg
       relativeUrl: true

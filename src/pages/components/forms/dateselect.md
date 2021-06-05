@@ -1,8 +1,8 @@
 ---
-title: Form Group
+title: Date Select
 seo:
   type: stackbit_page_meta
-  title: Form Group
+  title: Date Select
   description: This is the features page
   extra:
     - name: 'og:type'

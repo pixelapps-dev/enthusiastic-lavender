@@ -52,5 +52,5 @@ Our goal is to design and build inclusive features to accomodate users of all ab
 
 ### Resources
 
-https://www.vic.gov.au/make-content-accessible 
+https://www.vic.gov.au/make-content-accessible </br>
 https://www.w3.org/WAI/standards-guidelines/wcag/
