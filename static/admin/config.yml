@@ -503,34 +503,6 @@ collections:
               label: String
               name: string
               widget: string
-  - name: components
-    label: Component Sections
-    files:
-      - name: components
-        label: Documentation Sections
-        file: src/data/doc_sections.yml
-        fields:
-          - widget: string
-            name: root_docs_path
-            label: Root Documentation URL Path
-            required: true
-            default: /docs
-            hint: >-
-              The URL path under which the documentation pages will be
-              generated. For example, value "/" will place all documentation
-              pages at the site root, while value "/docs" will place all
-              documentation pages under the "/docs" path.
-          - widget: list
-            name: sections
-            label: Sections
-            required: false
-            hint: >-
-              The main sections of the documentation. Every item must be the URL
-              slug representing the section.
-            field:
-              label: String
-              name: string
-              widget: string
   - name: advanced
     label: Advanced Pages
     folder: src/pages
