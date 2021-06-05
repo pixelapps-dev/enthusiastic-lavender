@@ -504,9 +504,9 @@ collections:
               name: string
               widget: string
   - name: components
-    label: Components
+    label: Component Sections
     files:
-      - name: doc_sections
+      - name: components
         label: Documentation Sections
         file: src/data/doc_sections.yml
         fields:
