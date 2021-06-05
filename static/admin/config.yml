@@ -475,10 +475,10 @@ collections:
     filter:
       field: template
       value: docs
-  - name: doc_sections
+  - name: components
     label: Documentation Sections
     files:
-      - name: doc_sections
+      - name: components
         label: Documentation Sections
         file: src/data/doc_sections.yml
         fields:
