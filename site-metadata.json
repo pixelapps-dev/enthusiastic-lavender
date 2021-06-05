@@ -1,111 +1,102 @@
 {
+  "title": "Cm3 Design System",
+  "palette": "blue",
+  "header": {
+    "type": "header",
     "title": "Cm3 Design System",
-    "palette": "blue",
-    "header": {
-        "type": "header",
-        "title": "Cm3 Design System",
-        "logo_img": "/images/Cm3 Logo.svg",
-        "logo_img_alt": "Cm3 logo",
-        "has_nav": true,
-        "nav_links": [
-            {
-                "type": "action_menu",
-                "label": "Home",
-                "url": "/",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Components",
-                "url": "/docs",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Blog",
-                "url": "/blog",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Sample Pages",
-                "url": "#",
-                "style": "link",
-                "has_subnav": true,
-                "subnav_links": [
-                    {
-                        "type": "action",
-                        "label": "Overview",
-                        "url": "/overview",
-                        "style": "link"
-                    },
-                    {
-                        "type": "action",
-                        "label": "Showcase",
-                        "url": "/showcase",
-                        "style": "link"
-                    }
-                ]
-            },
-            {
-                "type": "action_menu",
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "primary",
-                "has_subnav": false
-            }
+    "logo_img": "/images/Cm3 Logo.svg",
+    "logo_img_alt": "Cm3 logo",
+    "has_nav": true,
+    "nav_links": [
+      {
+        "type": "action_menu",
+        "label": "Home",
+        "url": "/",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Components",
+        "url": "/docs",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Blog",
+        "url": "/blog",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Sample Pages",
+        "url": "#",
+        "style": "link",
+        "has_subnav": true,
+        "subnav_links": [
+          {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }
         ]
-    },
-    "footer": {
-        "type": "footer",
-        "content": "&copy; Greencap Pty Ltd. All rights reserved.",
-        "has_social": true,
-        "social_links": [
-            {
-                "type": "action",
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "icon",
-                "icon_class": "twitter",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "icon",
-                "icon_class": "linkedin",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "icon",
-                "icon_class": "github",
-                "new_window": true
-            }
-        ],
-        "links": [
-            {
-                "url": "#",
-                "style": "link",
-                "icon_class": "dev",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            }
-        ]
-    },
-    "domain": "https://enthusiastic-lavender-a8522.netlify.app"
+      },
+      {
+        "type": "action_menu",
+        "label": "Style Guide",
+        "url": "/style-guide",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "GitHub",
+        "url": "https://github.com/",
+        "style": "primary",
+        "has_subnav": false
+      }
+    ]
+  },
+  "footer": {
+    "type": "footer",
+    "content": "&copy; Greencap Pty Ltd. All rights reserved.",
+    "has_social": true,
+    "social_links": [
+      {
+        "type": "action",
+        "label": "Twitter",
+        "url": "https://twitter.com/",
+        "style": "icon",
+        "icon_class": "twitter",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/",
+        "style": "icon",
+        "icon_class": "linkedin",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "GitHub",
+        "url": "https://github.com/",
+        "style": "icon",
+        "icon_class": "github",
+        "new_window": true
+      }
+    ],
+    "links": []
+  },
+  "domain": "https://cm3.netlify.app"
 }
