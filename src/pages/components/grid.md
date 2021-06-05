@@ -47,3 +47,5 @@ seo:
       relativeUrl: true
 template: docs
 ---
+
+The grid system follows 4px measurement to keep spacing consistent across all platforms.

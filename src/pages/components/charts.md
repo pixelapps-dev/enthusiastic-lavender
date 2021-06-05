@@ -1,8 +1,8 @@
 ---
-title: Message
+title: Charts
 seo:
   type: stackbit_page_meta
-  title: Message
+  title: Charts
   description: This is the documentation page
   extra:
     - name: 'og:type'
@@ -23,4 +23,4 @@ seo:
 template: docs
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt id ante id varius. Fusce a gravida dolor.
+Charts are interactive graphics to visually display and compare data.

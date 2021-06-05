@@ -26,8 +26,7 @@ seo:
 template: docs
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
+Forms allow users to enter and submit data into the system. Each form element is outlined below. It is crucial that form elements follow specific guidelines to allow all users to be able to interact with the interface.
 
 ***
-
-Here are the articles in this section:
+## Form Elements

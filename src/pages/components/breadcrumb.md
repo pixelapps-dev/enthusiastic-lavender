@@ -1,8 +1,8 @@
 ---
-title: Message
+title: Breadcrumb
 seo:
   type: stackbit_page_meta
-  title: Message
+  title: Breadcrumb
   description: This is the documentation page
   extra:
     - name: 'og:type'
@@ -23,4 +23,4 @@ seo:
 template: docs
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt id ante id varius. Fusce a gravida dolor.
+Breadcrumbs give the user context on where they are in the application and how they can navigate back.

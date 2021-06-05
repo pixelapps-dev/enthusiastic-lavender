@@ -18,7 +18,7 @@
             {
                 "type": "action_menu",
                 "label": "Foundations",
-                "url": "/foundations",
+                "url": "#",
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
@@ -69,9 +69,29 @@
             {
                 "type": "action_menu",
                 "label": "Content",
-                "url": "/content-guidelines",
+                "url": "#",
                 "style": "link",
-                "has_subnav": false
+                "has_subnav": true,
+                "subnav_links": [
+                    {
+                        "type": "action",
+                        "label": "Vocabulary",
+                        "url": "/content/vocabulary",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Glossary",
+                        "url": "/content/glossary",
+                        "style": "link"
+                    },
+                    {
+                        "type": "action",
+                        "label": "Email",
+                        "url": "/content/email",
+                        "style": "link"
+                    }
+                ]
             }
         ]
     },

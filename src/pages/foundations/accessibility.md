@@ -45,5 +45,12 @@ seo:
     - name: 'twitter:image'
       value: images/5.jpg
       relativeUrl: true
-template: docs
+template: page
 ---
+
+Our goal is to design and build inclusive features to accomodate users of all abilities. Cm3 aims to meet the WCAG 2.1 Level AA success criteria.
+
+### Resources
+
+https://www.vic.gov.au/make-content-accessible 
+https://www.w3.org/WAI/standards-guidelines/wcag/

@@ -19,9 +19,7 @@ sections:
       - type: grid_item
         title: Components
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences.
         actions:
           - type: action
             label: View Components
@@ -30,8 +28,7 @@ sections:
       - type: grid_item
         title: Foundations
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          Foundations are the visual elements needed to create engaging end-to-end user experiences. This includes guidance on iconography, typography, layout and structure.
         actions:
           - type: action
             label: View Foundations
@@ -40,52 +37,32 @@ sections:
       - type: grid_item
         title: Content
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          Our content guidance covers our voice and tone, and the mechanics of our grammar and style. We use clear, concise and conversational language to craft the messages teams need to know, to get them to where they need to go.
         actions:
           - type: action
             label: View Content Guidelines
             url: /content-guidelines
             style: link
   - type: section_content
-    title: A Section With An Image
+    title: Design System 101
     section_id: text-img
     image: images/jamstack.svg
     image_position: left
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      What is a design system? What's the benefit?
     actions:
       - type: action
-        label: View Demo
+        label: View Slides
         url: /docs/getting-started
-        style: primary
-      - type: action
-        label: Get Started
-        url: /docs/getting-started
-        style: secondary
-  - type: section_content
-    title: A Section Without Image
-    section_id: text-no-img
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    actions:
-      - type: action
-        label: Get Started
-        url: /docs/getting-started/installation
         style: primary
   - type: section_grid
-    title: Sample Layouts
+    title:
     section_id: features-two-col
-    subtitle: An optional subtitle of the section
+    subtitle:
     col_number: two
     grid_items:
       - type: grid_item
-        title: Overview
+        title: Vocabulary
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -96,7 +73,7 @@ sections:
             url: /overview
             style: link
       - type: grid_item
-        title: Showcase
+        title: Accessibility
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,

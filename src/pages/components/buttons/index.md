@@ -26,7 +26,7 @@ template: docs
 ---
 
 <div class="note">
-  ⚠️ 
+  ⚠️
   This spec is still in development. Please use as a guide only
 </div>
 

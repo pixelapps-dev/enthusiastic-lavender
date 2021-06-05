@@ -47,3 +47,5 @@ seo:
       relativeUrl: true
 template: docs
 ---
+
+Inline messages are used to provide useful or important information.
