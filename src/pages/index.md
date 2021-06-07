@@ -6,7 +6,7 @@ sections:
     section_id: hero
     image: images/5.jpg
     content: >-
-        A collection of guidelines and resources for use across the Cm3 product.
+        A collection of guidelines and resources for use across the Cm3 ecosystem.
     actions:
       # - type: action
       #   label: Get Started
@@ -46,14 +46,14 @@ sections:
   - type: section_content
     title: Design System 101
     section_id: text-img
-    image: images/jamstack.svg
+    image: images/cm3_ds.jpg
     image_position: left
     content: >-
       What is a design system? What's the benefit?
     actions:
       - type: action
         label: View Slides
-        url: #
+        url: https://greencap01-my.sharepoint.com/personal/jayson_browne_greencap_com_au/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={3977DD31-C57F-486B-9FC3-6AEFAD202D64}
         style: primary
   - type: section_grid
     title:
@@ -64,24 +64,20 @@ sections:
       - type: grid_item
         title: Vocabulary
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
+          Guidelines on the Cm3's tone of voice, terms, directions and abbreviations.
         actions:
           - type: action
             label: Learn More
-            url: /overview
+            url: /content/vocabulary
             style: link
       - type: grid_item
         title: Accessibility
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          How we aim to make Cm3 accessible to all users.
         actions:
           - type: action
             label: Learn More
-            url: /showcase
+            url: /foundations/accessibility
             style: link
   # - type: section_cta
   #   title: The Title of The Call to Action Block

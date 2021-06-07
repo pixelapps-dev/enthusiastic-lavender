@@ -48,7 +48,11 @@ seo:
 template: page
 ---
 
-Our goal is to design and build inclusive features to accomodate users of all abilities. Cm3 aims to meet the WCAG 2.1 Level AA success criteria.
+<div class="note">
+  Guidance in development.
+</div>
+
+Our aim is to design and build inclusive features to accomodate users of all abilities. Cm3 aims to meet the WCAG 2.1 Level AA success criteria with all new releases.
 
 ### Resources
 

@@ -28,5 +28,3 @@ template: docs
 
 Forms allow users to enter and submit data into the system. Each form element is outlined below. It is crucial that form elements follow specific guidelines to allow all users to be able to interact with the interface.
 
-***
-## Form Elements

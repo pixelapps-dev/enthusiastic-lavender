@@ -47,3 +47,32 @@ seo:
       relativeUrl: true
 template: page
 ---
+
+## Overview
+
+<!-- ## Supported Devices
+
+## Supported Screen Sizes -->
+### Viewport Breakpoints
+
+```
+// -- Mobile Portrait
+@media (min-width: 640px) {
+
+}
+
+// -- Tablet Portrait + Mobile Landscape
+@media (min-width: 768px) {
+
+}
+
+// -- Tablet Landscape
+@media (min-width: 1024px) {
+
+}
+
+// -- Laptop + Desktop
+@media (min-width: 1280px) {
+
+}
+```
